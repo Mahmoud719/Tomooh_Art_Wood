@@ -1,20 +1,10 @@
-/**
-* Template Name: Gp
-* Template URL: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/
-* Updated: Jun 06 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
-# Font & Color Variables
-# Help: https://bootstrapmade.com/color-system/
---------------------------------------------------------------*/
 /* Fonts */
 :root {
   --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --ar-font: "RB" ,sans-serif;
   --heading-font: "Raleway",  sans-serif;
   --nav-font: "Poppins",  sans-serif;
+  --nav-font-ar: "RB",  sans-serif;
 }
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
@@ -120,7 +110,11 @@ h6 {
   transition: 0.3s;
   border: 2px solid var(--accent-color);
 }
-
+.header .flag-icon {
+  width: 16px;  /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 8px;  /* Space between flag and text */
+}
 .header .btn-getstarted:hover,
 .header .btn-getstarted:focus:hover {
   color: var(--default-color);
@@ -152,6 +146,8 @@ h6 {
 .index-page .header {
   --background-color: rgba(0, 0, 0, 0);
 }
+
+
 
 /* Index Page Header on Scroll
 ------------------------------*/
@@ -1033,7 +1029,7 @@ section,
 .services .new img {
   position: relative;
   height: 350px;
-  margin-left: 5px;
+  margin-left: 0px;
   transition: ease-in-out 0.3s;
 }
 
