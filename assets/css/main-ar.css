@@ -13,6 +13,10 @@
   --accent-color: #ffc451; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --contrast-color: #312f2f; /* The contrast color is used for elements when the background color is one of the heading, accent, or default colors. Its purpose is to ensure proper contrast and readability when placed over these more dominant colors */
 }
+@font-face {
+  font-family: MyCustomFont;
+  src: url('../Fonts/4_F5.ttf') format('truetype');
+}
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
@@ -39,7 +43,8 @@
 body {
   color: var(--default-color);
   background-color: var(--background-color);
-  font-family: var(--default-font);
+  /* font-family: var(--default-font); */
+  font-family: MyCustomFont, Arial, sans-serif;
   direction: rtl;
 }
 
