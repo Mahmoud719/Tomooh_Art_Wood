@@ -127,7 +127,7 @@ h6 {
 
 @media (max-width: 1200px) {
   .header .logo {
-    order: 1;
+    order: 4;
   }
 
   .header .btn-getstarted {
