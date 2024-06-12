@@ -129,9 +129,8 @@ h6 {
   .header .logo {
     order: 4;
   }
-
   .header .btn-getstarted {
-    order: 3..;
+    order: 3;
     margin: 0 15px 0 0;
     padding: 6px 15px;
   }
